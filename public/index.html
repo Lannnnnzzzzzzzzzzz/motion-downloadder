@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dailymotion Premium Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Dailymotion Fast Downloader</h1>
+    <input type="text" id="videoUrl" placeholder="https://www.dailymotion.com/video/xxxx">
+    
+    <select id="quality">
+      <option value="360p">360p (Fast)</option>
+      <option value="480p">480p</option>
+      <option value="720p" selected>720p (HD)</option>
+      <option value="1080p">1080p (Full HD)</option>
+      <option value="best">Best Quality</option>
+    </select>
+    
+    <button onclick="startDownload()">Download Now</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
